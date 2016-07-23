@@ -54,7 +54,7 @@ app.use(function (err, req, res, next) {
     });
 });
 
-app.listen(proces.env.PORT || 9095, function () {
+app.listen(process.env.PORT || 9095, function () {
     console.log('app in running on port 9095');
 });
 
