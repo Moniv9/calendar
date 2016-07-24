@@ -105,7 +105,7 @@ var Month = React.createClass({
         },
 
         monthOnChange: function (month) {
-            var months = this.props.month;
+            var months = this.props.months;
             this.setState({ month: months.indexOf(month) });
         },
 
